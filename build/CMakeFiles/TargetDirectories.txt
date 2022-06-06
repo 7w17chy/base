@@ -1,0 +1,7 @@
+/home/thulis/devel/base/build/CMakeFiles/errors.dir
+/home/thulis/devel/base/build/CMakeFiles/edit_cache.dir
+/home/thulis/devel/base/build/CMakeFiles/rebuild_cache.dir
+/home/thulis/devel/base/build/CMakeFiles/list_install_components.dir
+/home/thulis/devel/base/build/CMakeFiles/install.dir
+/home/thulis/devel/base/build/CMakeFiles/install/local.dir
+/home/thulis/devel/base/build/CMakeFiles/install/strip.dir
