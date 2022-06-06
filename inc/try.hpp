@@ -34,3 +34,11 @@
             return error::Error::from_string_literal(str_lit);                 \
         _temporary_result;                                                     \
     })
+
+#define TRY_INT(expression, str_lit)                                           \
+    ({                                                                         \
+        auto _temporary_result = (expression);                                 \
+        if (_temporary_result != 0) [[unlikely]]                               \
+            return error::Error::from_string_literal(str_lit);                 \
+        _temporary_result;                                                     \
+    })
